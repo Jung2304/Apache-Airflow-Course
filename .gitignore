@@ -1,0 +1,60 @@
+# ==============================
+# Python Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Python Cache
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ==============================
+# Apache Airflow
+# ==============================
+logs/
+airflow.db
+airflow.db-*
+airflow-webserver.pid
+airflow-scheduler.pid
+standalone_admin_password.txt
+
+# Local Airflow configuration
+config/airflow.cfg
+
+# ==============================
+# Generated Data
+# ==============================
+data/
+*.tmp
+*.log
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
